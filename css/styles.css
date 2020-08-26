@@ -1183,16 +1183,18 @@
   .icon-check-svg {
     width: 16px;
     height: 15px;
-    transform: translate(-13%, -12%);
+    background-origin: border-box;
+    background-size: contain;
   }
-  
+
   .form-licence-checkbox:checked  ~ .icon-check {
     border-color: transparent;
     background-color: var(--accent-blue-color);
     background-size: contain;
     background-origin: border-box;
   }
-  
+
+ 
   .agree-text {
     font-weight: normal;
     line-height: 1.714px;
