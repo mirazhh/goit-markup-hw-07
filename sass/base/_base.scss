@@ -1,0 +1,63 @@
+/*Common styles*/
+
+/* Fonts
+   Raleway bold 700
+   Roboto Regular 400
+   Roboto Medium 500
+   Roboto Bold 700
+   Roboto Black 900*/
+
+   html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  
+  
+  body {
+    /*width: 1600px;
+      height: 2924px;*/
+    background-color: $main-background-color /*#E5E5E5*/;
+    font-family: $main-font /*'Roboto', Sans-serif*/;
+    color: $dark-grey-text-color /*#212121*/;
+    font-size: 14px;
+  }
+  
+  .link {
+    text-decoration: none;
+    display: block;
+  }
+  
+  .list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  
+  h1,
+  h2,
+  h3,
+  h4 {
+    margin: 0;
+  }
+  
+  p,
+  b {
+    margin: 0;
+  }
+  
+  img,
+  p,
+  b {
+    display: block;
+  }
+  
+  textarea {
+    resize: none;
+  }
