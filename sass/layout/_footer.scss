@@ -95,11 +95,11 @@
     background-color: $accent-blue-color;
     border: 0px;
     border-radius: 4px;
-  }
   
-  .sign-up-button:hover,
-  .sign-up-button:focus {
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15), 0px 4px 4px rgba(0, 0, 0, 0.15);
+    &:hover,
+    &:focus {
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15), 0px 4px 4px rgba(0, 0, 0, 0.15);
+    }
   }
   
   .icon-send-svg {
@@ -127,19 +127,19 @@
     background-color: transparent;
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 4px;
-  }
   
-  .sign-up-form-input::placeholder {
-    align-items: center;
-    color: rgba(255, 255, 255, 0.6);
-  }
+    &:hover,
+    &:focus {
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15), 0px 4px 4px rgba(0, 0, 0, 0.15);
+    }
+    
+   &::placeholder {
+      align-items: center;
+      color: rgba(255, 255, 255, 0.6);
+   }
   
-  .sign-up-form-input:hover::placeholder,
-  .sign-up-form-input:focus::placeholder {
-    color: rgba(255, 255, 255, 1);
-  }
-  
-  .sign-up-form-input:hover,
-  .sign-up-form-input:focus {
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15), 0px 4px 4px rgba(0, 0, 0, 0.15);
-  }
+   &:hover::placeholder,
+   &:focus::placeholder {
+      color: rgba(255, 255, 255, 1);
+   }
+}

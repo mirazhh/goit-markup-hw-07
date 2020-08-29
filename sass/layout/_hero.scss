@@ -54,14 +54,13 @@
     letter-spacing: 0.06em;
     border: 0px;
     border-radius: 4px;
-  }
   
-  .hero-section-button:hover,
-  .hero-section-button:focus {
-    color: $dark-theme-text-color;
-    background-color: $accent-blue-color;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15), 0px 4px 4px rgba(0, 0, 0, 0.15);
+    &:hover,
+    &:focus {
+      color: $dark-theme-text-color;
+      background-color: $accent-blue-color;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15), 0px 4px 4px rgba(0, 0, 0, 0.15);
+    }
   }
-  
   
  

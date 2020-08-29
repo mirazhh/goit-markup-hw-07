@@ -22,18 +22,14 @@
   .our-strengths-section-pics {
     margin-bottom: 30px;
   }
-  
+
   .our-strengths-item {
     width: 270px;
+  
+  &:not(:last-child) {
+    margin-right: 30px;}
   }
   
-  .our-strengths-item:not(:last-child) {
-    margin-right: 30px;
-  }
-  
-  .our-strengths-item-title:not(:last-child) {
-    margin-bottom: 10px;
-  }
   
   .our-strengths-section-svg {
     width: 70px;
@@ -46,8 +42,12 @@
     line-height: 1.14;
     letter-spacing: 0, 03em;
     text-transform: uppercase;
-  }
+ 
   
+    &:not(:last-child) {
+      margin-bottom: 10px;}
+    }
+
   .our-strengths-item-info {
     font-weight: 400; 
     font-size: 14px;

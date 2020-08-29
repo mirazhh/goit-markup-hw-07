@@ -36,13 +36,6 @@
   }
   
   .what-we-do-item-title {
-    align-items: center;
-    justify-content: center;
-    padding-top: 27px;
-    padding-bottom: 27px;
-  }
-  
-  .what-we-do-item-title {
     width: 370px;
     height: 70px;
     font-weight: 700; 
@@ -51,7 +44,11 @@
     text-align: center;
     letter-spacing: 0, 03em;
     text-transform: uppercase;
-    color: var(--dark-theme-text-color);
+    color: $dark-theme-text-color;
     background-color: rgba(47, 48, 58, 0.8);
     margin: 0;
+    align-items: center;
+    justify-content: center;
+    padding-top: 27px;
+    padding-bottom: 27px;
   }
