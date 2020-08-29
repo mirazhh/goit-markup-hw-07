@@ -1,4 +1,4 @@
-.footer-box {
+  .footer-box {
     background-color: $background-footer-color;
     padding-top: 60px;
     padding-bottom: 60px;
@@ -37,8 +37,7 @@
   .footer-contacts-item-requisites {
     color: rgba(255, 255, 255, 0.6);
   }
-  
-  
+   
   .join-us-box {
     margin-right: 94px;
   }
@@ -49,9 +48,7 @@
     line-height: 1.14;
     letter-spacing: 0.03em;
     color: $dark-theme-text-color;
-  
     margin-bottom: 20px;
-  
     text-transform: uppercase;
   }
   
@@ -66,9 +63,7 @@
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-  
     margin-bottom: 20px;
-  
     color: $dark-theme-text-color;
   }
   
@@ -117,13 +112,11 @@
     padding-bottom: 15px;
     padding-left: 16px;
     resize: none;
-  
     font-family: $main-font;
     font-size: 16px;
     line-height: 1.25;
     letter-spacing: 0.03em;
     color: $dark-theme-text-color;
-  
     background-color: transparent;
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 4px;

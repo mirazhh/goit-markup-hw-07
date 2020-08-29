@@ -913,9 +913,6 @@ textarea {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
-}
-
-.hero-section-title {
   margin-bottom: 30px;
 }
 
@@ -928,9 +925,6 @@ textarea {
   padding-right: 32px;
   padding-bottom: 10px;
   padding-left: 32px;
-}
-
-.hero-section-button {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
@@ -1070,8 +1064,14 @@ textarea {
 }
 
 .our-team-member {
+  background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+}
+
+.our-team-member .social-network-links-list {
+  padding-top: 16px;
+  padding-bottom: 24px;
 }
 
 .our-team-member:not(:last-child) {
@@ -1084,6 +1084,12 @@ textarea {
 
 .our-team-member-name {
   margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.our-team-member-profession {
+  font-weight: 400;
+  color: #757575;
 }
 
 .our-team-member-name,
@@ -1094,28 +1100,10 @@ textarea {
   letter-spacing: 0.03em;
 }
 
-.our-team-member-name {
-  font-weight: 500;
-}
-
-.our-team-member-profession {
-  font-weight: 400;
-  color: #757575;
-}
-
 .our-team-list {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.our-team-member {
-  background: #ffffff;
-}
-
-.our-team-member .social-network-links-list {
-  padding-top: 16px;
-  padding-bottom: 24px;
 }
 
 .contant-clients-section {
@@ -1141,9 +1129,6 @@ textarea {
 .constant-clients-section-svg {
   transition-property: fill;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.constant-clients-section-svg {
   fill: #afb1b8;
 }
 
