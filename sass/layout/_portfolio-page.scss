@@ -1,9 +1,9 @@
-.web-studio-item-link-active {
+.portfolio-link-active {
     position: relative;
     color: $accent-blue-color; 
   }
   
-  .web-studio-item-link-active::after {
+  .portfolio-link-active::after {
     content: "";
   
     position: absolute;
