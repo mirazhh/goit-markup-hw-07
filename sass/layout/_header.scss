@@ -43,23 +43,23 @@
   }
   
   .web-studio-logo {
-    font-family: $secondary-font /*"Raleway", sans-serif*/;
-    font-weight: 700; /*bold*/
+    font-family: $secondary-font;
+    font-weight: 700; 
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0, 03em;
   }
   
   .web-logo-part {
-    color: $accent-blue-color /*#2196F3*/;
+    color: $accent-blue-color;
   }
   
   .studio-logo-part {
-    color: $logo-black-color /*#000000*/;
+    color: $logo-black-color;
   }
   
   .web-studio-item-link {
-    color: $dark-grey-text-color /*#212121*/;
+    color: $dark-grey-text-color;
   }
   
   .web-studio-item-link,
@@ -80,18 +80,18 @@
   }
   
   .contacts-menu-item-link {
-    color: $light-grey-text-color /*#757575*/;
+    color: $light-grey-text-color;
   }
   
   .web-studio-item-link:hover,
   .web-studio-item-link:focus,
   .contacts-menu-item-link:hover,
   .contacts-menu-item-link:focus {
-    color: $accent-blue-color; /*#2196F3*/
+    color: $accent-blue-color; 
   }
   
   .web-studio-item-link-active {
-    color: $accent-blue-color; /*#2196F3*/
+    color: $accent-blue-color; 
   }
   
   .contacts-menu-item-mailto {
